@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題:国際支援ページ用CSS                                   　　　　　　　　　　　*/
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+table.outlinetable {
+	width:659px;
+	margin:0 0 30px 0;
+	border-top:1px solid #999999;
+	border-left:1px solid #999999;
+}
+
+table.outlinetable th,
+table.outlinetable td {
+	padding:10px;
+	border-bottom:1px solid #999999;
+	border-right:1px solid #999999;
+}
+
+table.outlinetable th {
+	font-weight:bold;
+	background:url(../img/shared/backt.jpg) top left repeat;
+	line-height:140%;
+	white-space:nowrap;
+}
+
+table.outlinetable td {
+	line-height:140%;
+}
+
+h4 {
+	background:url(../img/shared/bullet-check.jpg) center left no-repeat;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:0 0 10px 0;
+	padding:0 0 0 25px;
+	color:#624120;
+}
+
+h4.featureTitle {
+	background-image:none;
+	padding:0;
+}
+
+p.catch {
+	padding:20px 0;
+}
+
+h5 {
+	font-weight:bold;
+	font-size:1.2em;
+	margin:0 0 10px 0;
+	color:#624120;
+}
+
+.mapBox {
+	width:600px;
+	margin:0 auto 10px;
+}
+
+.specialBox {
+	margin:30px 0;
+	padding:30px 0;
+	border-bottom:1px solid #624120;
+	border-top:1px solid #624120;
+}
+
+.MainArea .leftArea .mainContent .specialBox p {
+	margin:0 0 5px 0;
+}
+
+.MainArea .leftArea .mainContent .specialBox p.days {
+	margin:0 0 3px 0;
+	text-align:right;
+	font-size:0.9em;
+}
+
+.MainArea .leftArea .mainContent .specialBox p.moreread {
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	text-align:right;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+.specialBox h5 {
+	padding:0 0 0 24px;
+	background:url(../img/shared/bullet-pen.jpg) center left no-repeat;
+	color:#679840;
+	line-height:1.4em;
+	margin: 0 0 5px;
+}
+
+.workBox {
+	width:660px;
+	margin:0 0 35px 0;
+	overflow:hidden;
+}
+
+.workBox .workBoxLeft {
+	width:395px;
+	float:left;
+}
+
+.workBox .workBoxRight {
+	width:250px;
+	float:right;
+}
+
+.workBox .workBoxRight p img {
+	padding:4px;
+	background:#FFFFFF;
+	border:1px solid #999999;
+}
+
+.workBox .workBoxLeft table {
+	margin:0 0 15px 0;
+}
+
+.workBox .workBoxLeft table th,
+.workBox .workBoxLeft table td {
+	padding:3px 0;
+}
+.workBox .workBoxLeft table th {
+	white-space:nowrap;
+}
+
+.workBox .workBoxLeft table td {
+	line-height:140%;
+}
+
+.workBox .workBoxLeft table td a {
+	line-height:140%;
+}
+
+.temporary {
+	background:#F5F5F5;
+	padding:15px;
+	margin:0 0 35px 0;
+}
+
+.MainArea .leftArea .mainContent p.board {
+	margin:0 0 35px 0;
+}
+
+

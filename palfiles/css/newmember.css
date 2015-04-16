@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 応援してくださる方へ用CSS                       　            　　　　　　 */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.cheer .MainArea .leftArea .mainContent h3 {
+	margin:0 0 15px 0;
+	padding:0 0 5px 0;
+}
+
+p.title {
+	text-align: center;
+}
+
+div.typeBox table {
+	margin-bottom: 20px;
+}
+
+div.typeBox table tr th {
+	background-color: #24B5B5;
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+	color: #FFF;
+	border: #FFF 2px solid;
+}
+
+div.typeBox table tr td {
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	background:#ECFAFB;
+	border: #FFF 2px solid;
+}
+
+div.surviceBox table {}
+
+div.surviceBox table tr th {
+	border: #FFF 2px solid;
+	background-color: #24B5B5;
+	padding: 10px 1px;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFF;
+	font-size: 10px;
+}
+
+div.surviceBox table tr td {
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	background:#ECFAFB;
+	border: #FFF 2px solid;
+}
+
+div.howBox {
+	margin-top: 20px;
+}
+
+span.bold {
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+span.bold_red {
+	font-weight: bold;
+	color: #900;
+}

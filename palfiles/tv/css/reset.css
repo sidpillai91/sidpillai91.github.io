@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 各種Webブラウザ リセット用CSS                                              */
+/* 作成日: 2012-03-13                                                               */
+/* 最終更新日: 2012-03-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+a img, :link img, :visited img {
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul,ol{
+	list-style-type:none;
+}
+
+ul li img {
+	vertical-align: top;
+}

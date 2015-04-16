@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: インターン・求人について用CSS                       　            　　　　 */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.recruit .MainArea .leftArea .mainContent h3 {
+	background:url(../img/shared/bullet-check.jpg) center left no-repeat;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:0 0 15px 0;
+	padding:0 0 0 25px;
+	border-bottom:none;
+}
+
+p.catches {
+	padding:15px;
+	border:1px solid #CCCCCC;
+	background:#F5F5F5;
+}
+
+.recruit .MainArea .leftArea .mainContent table {
+	width:659px;
+	margin:0 0 30px 0;
+	border-top:1px solid #999999;
+	border-left:1px solid #999999;
+}
+
+.recruit .MainArea .leftArea .mainContent table caption {
+	font-weight:bold;
+	font-size:1.1em;
+	margin:0 0 5px 0;
+}
+
+.recruit .MainArea .leftArea .mainContent table th,
+.recruit .MainArea .leftArea .mainContent table td {
+	padding:10px;
+	border-bottom:1px solid #999999;
+	border-right:1px solid #999999;
+}
+
+.recruit .MainArea .leftArea .mainContent table th {
+	font-weight:bold;
+	background:url(../img/shared/backt.jpg) top left repeat;
+	line-height:140%;
+	white-space:nowrap;
+}
+
+.recruit .MainArea .leftArea .mainContent table td {
+	line-height:140%;
+}
+
+

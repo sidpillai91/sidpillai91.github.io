@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 各ページ共通用CSS                                   　　　　　　           */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+body,html {
+	width:100%;
+	color:#333333;
+	font-size:12px;
+	line-height:135%;
+	letter-spacing:0.5px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+body {
+	background:url(../img/back.jpg) center bottom repeat #EFEFEF;   
+}
+
+a {
+	color:#2D6891;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+p {
+	line-height:135%;
+}
+
+.center {
+	text-align:center;
+}
+
+.alignright {
+	text-align:right;
+}
+
+.header {
+	height:120px;
+	margin:0 0 5px 0;
+	/*background:url(../img/back-header.png) top left repeat-x;*/
+}
+
+.header .headerBox {
+	width:640px;
+	margin:0 auto;
+}
+
+.header .headerBox h1 {
+	padding:30px 0 0 0;
+	text-align:center;
+}
+
+
+.mainWrap {
+	padding:0 0 0 5px;
+}
+
+#mainArea {
+	overflow:hidden;
+}
+
+.grid01 {
+	width:640px;
+	margin:5px;
+	background:#F4F4F4;
+}
+
+.grid01 h2 {
+	padding:5px;
+	margin:0 0 3px 0;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:#3E5DA0;
+	font-size:1.1em;
+}
+
+.grid01 #flashContent {
+	height:397px;
+}
+
+.grid02 {
+	width:295px;
+	margin:5px;
+	padding:9px 9px 28px 9px;
+	border:1px solid #F5F5F5;
+	background:url(../img/leftbottom-pink.jpg) right bottom no-repeat #FFFFFF;
+}
+
+.gridhead {
+	width:295px;
+	margin:5px;
+	padding:9px 9px 28px 9px;
+	border:1px solid #F5F5F5;
+	background:#EFEFEF;
+	background: -moz-linear-gradient(top, #FFFFFF, #EFEFEF);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EFEFEF));
+
+}
+
+.gridhead h1 {
+	padding:5px 0 20px 0;
+}
+
+
+.gridhead p {
+}
+
+.gridhead p.notice {
+	text-align:center;
+	margin:0 0 15px 0;
+}
+
+.gridhead h2 {
+	padding:5px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	background:#3E5DA0;
+	font-size:1.1em;
+}
+
+.gridhead ul {
+	padding:7px 0 0 0;
+}
+
+.gridhead ul li {
+	margin:0 0 10px 0;
+}
+
+.gridhead ul li a {
+	padding:0 20px 0 0;
+	background:url(../img/icon-blank.png) center right no-repeat;
+}
+
+
+
+p.thumbImg {
+	margin:0 0 5px 0;
+}
+
+p.movieTitle {
+	margin:5px 0 5px 0;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+p.copyright {
+	padding:15px 0 10px 0;
+	margin:0 auto;
+	width:640px;
+	text-align:center;
+}
+

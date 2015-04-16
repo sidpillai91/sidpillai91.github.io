@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題:ぱれっとつうしんページ用CSS                                   　　　　　　　*/
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.tsushin .MainArea .leftArea h3 {
+	margin:0 0 10px 0;
+}
+
+.tsushin .MainArea .leftArea h4 {
+	margin:0 0 20px 0;
+}
+
+.tsushin .MainArea .leftArea p.covers img {
+	border:1px solid #CCCCCC;
+}
+
+.tsushin .MainArea .leftArea p.alls {
+	margin:0 0 35px 0;
+}
+
+table.outlinetable {
+	width:659px;
+	margin:0 0 30px 0;
+	border-top:1px solid #999999;
+	border-left:1px solid #999999;
+}
+
+table.outlinetable th,
+table.outlinetable td {
+	padding:10px;
+	border-bottom:1px solid #999999;
+	border-right:1px solid #999999;
+}
+
+table.outlinetable th {
+	font-weight:bold;
+	background:url(../img/shared/backt.jpg) top left repeat;
+	line-height:140%;
+	white-space:nowrap;
+}
+
+table.outlinetable td {
+	line-height:140%;
+}
+
+h4 {
+	background:url(../img/shared/bullet-check.jpg) center left no-repeat;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:0 0 10px 0;
+	padding:0 0 0 25px;
+	color:#624120;
+}
+
+.MainArea .leftArea .mainContent h3.detailh3 {
+	background:url(../img/shared/bullet-check.jpg) center left no-repeat;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:0 0 10px 0;
+	padding:0 0 5px 25px;
+	color:#624120;
+}
+
+p.catch {
+	padding:20px 0;
+}
+
+h5 {
+	font-weight:bold;
+	font-size:1.2em;
+	margin:0 0 10px 0;
+	color:#624120;
+}
+
+h4.detailh4 {
+	font-weight:bold;
+	font-size:1.2em;
+	margin:0 0 10px 0;
+	color:#624120;
+	background-image:none;
+	padding:0;
+}
+
+.mapBox {
+	width:600px;
+	margin:0 auto 10px;
+}
+
+.specialBox {
+	margin:15px 0;
+	padding:15px 0;
+	border-bottom:1px solid #624120;
+	border-top:1px solid #624120;
+}
+
+.temporary {
+	background:#F5F5F5;
+	padding:15px 15px 5px 15px;
+	margin:0 0 35px 0;
+}
+
+.temporary ul li {
+	margin:0 0 10px 0;
+}
+
+.temporary ul {
+	padding:0 0 0 10px;
+}
+
+.temporary ul.pagetitles li {
+	margin:0 0 10px 0;
+
+	line-height:1.4em;
+	list-style:circle;
+}
+
+.temporary ul.pagetitles li a {
+
+	line-height:135%;
+	padding:0 23px 0 0;
+	background:url(../img/shared/bullet-pdf.png) center right no-repeat;
+}
+
+
+.tsushinBox {
+	width:660px;
+	overflow:hidden;
+	margin:0 0 20px 0;
+	padding:0 0 20px 0;
+	border-bottom:1px dotted #666666;
+}
+
+.tsushinBox p.tsushinThumb {
+	width:150px;
+	float:left;
+}
+
+.tsushinBox p.tsushinThumb img {
+	border:1px solid #CCCCCC;
+}
+
+.tsushinBox h5 {
+	width:495px;
+	float:right;
+}
+.tsushinBox h5 a {
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+.tsushinBox p.tsushinDetail {
+	width:495px;
+	float:right;
+	line-height:140%;
+}
+
+.tsushinBox p.tsushinsBtn {
+	width:495px;
+	float:right;
+}
+
+.tsushin .MainArea .leftArea h4.listTitle {
+	font-size:1.4em;
+	padding:10px 0 0 25px;
+}
+
+.center img {
+	margin:5px 0 7px 0;
+}
+
+.bold {
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.memberBox {
+	margin:0 0 20px 0;
+	padding:10px 10px 0 10px;
+	border:1px dotted #CCCCCC;
+}

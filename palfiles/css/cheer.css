@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 応援してくださる方へ用CSS                       　            　　　　　　 */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.cheer .MainArea .leftArea .mainContent h3 {
+	margin:0 0 15px 0;
+	padding:0 0 5px 0;
+}
+
+
+p.message {
+	line-height: 1.5;
+}
+
+div.btnBox {
+	padding-top: 15px;
+	margin: 50px 0 50px 0;
+	/*border-top: #900 2px solid;
+	border-bottom: #900 2px solid;*/
+	overflow: hidden;
+}
+
+div.btnBox p.btn {
+	float: left;
+	margin-left: 100px !important;
+}
+
+p.message {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+}

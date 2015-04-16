@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 新着情報用CSS                       　            　　　　　　        　　 */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.MainArea .leftArea .mainContent h3 {
+	border-bottom:none;
+}
+
+.newslist a {
+	padding:0 0 0 24px;
+	background:url(../img/shared/bullet-pen.jpg) center left no-repeat;
+	color:#679840;
+	line-height:1.4em;
+	margin: 0 0 5px;
+	font-size:1.2em;
+}
+
+.newslist li {
+	margin:0 0 8px 0;
+	padding:0 0 8px 0;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+.newslist .days {
+	font-size:0.9em;
+}
+
+.MainArea .leftArea .mainContent h3.detailtitle {
+	font-size:1.4em;
+	background:#F7EDE6;
+	padding:5px 5px 5px 10px;
+	border-left:5px solid #624120;
+	border-bottom:1px solid #EFEFEF;
+	font-weight:bold;
+	line-height:1.4;
+}
+
+.MainArea .leftArea .mainContent h3.detailtitle .days {
+	font-size:0.8em;
+}
+
+.bold {
+	font-weight:bold;
+	font-size:1.1em;
+	line-height:1.4;
+}
+
+.MainArea .leftArea .newsDetail p {
+	line-height:140%;
+}
+
+.MainArea .leftArea .newsDetail p a {
+	line-height:150%;
+}
+
+.MainArea .leftArea .newsDetail p.backList {
+	text-align:center;
+	padding:30px 0 0 0;
+}
+
+.newsimgBox01 {
+	width:660px;
+	overflow:hidden;
+}
+
+.newsimgBox01 p.newsimgBox01Left {
+	width:420px;
+	float:left;
+}
+
+.newsimgBox01 p.newsimgBox01Right {
+	width:200px;
+	float:right;
+}
+
+
+/*120622*/
+.newmembers th {
+	padding:5px 10px 5px 5px;
+	font-weight:bold;
+}
+
+.MainArea .leftArea .newsDetail h4.h42 {
+	color:#600;
+	font-size:1.2em;
+	font-weight:bold;
+	margin:0 0 7px 0;
+}
+
+.MainArea .leftArea .newsDetail h4.h42 {
+	color:#600;
+	font-size:1.2em;
+	font-weight:bold;
+	margin:0 0 15px 0;
+}
+
+.MainArea .leftArea .newsDetail p.boaderbottom {
+	padding:0 0 15px 0;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+.MainArea .leftArea .mainContent h4.thismonthh4 {
+	padding:0 0 0 8px;
+	border-left:3px solid #624120;
+	margin:0 0 10px 0;
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:1.4;
+}
+
+.MainArea .leftArea .mainContent p.thismonthms {
+	width:100%;
+	overflow:hidden;
+}
+
+.MainArea .leftArea .mainContent p.thismonthms img {
+	float:right;
+	padding:0 0 10px 10px;
+}
+
+.MainArea .leftArea .mainContent p.eventtitles {
+	font-size:1.3em;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:#2D6891;
+	padding:4px;
+	text-align:center;
+}
+
+.MainArea .leftArea .mainContent p.eventmonthms {
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+/*---------------------*/
+div.group{
+	margin-bottom: 20px;
+	line-height: 1.5;
+	overflow: hidden;
+}
+
+div.group p.text {
+	line-height: 1.5;
+	width: 450px;
+	float: left;
+	margin-right: 20px !important;	
+}
+
+div.group p.pic {
+	float: left;
+}
+/*---------201312号------------*/
+
+div.group p.text201312 {
+	line-height: 1.5;
+	width: 350px;
+	float: left;
+	margin-left: 10px !important;	
+}
+
+div.group p.pic {
+	float: left;
+}

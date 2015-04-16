@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: サイトマップ用CSS                       　            　　　　　　         */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.sitemap .mainContent ul li {
+	margin:0 0 12px 0;
+}
+
+.sitemap .mainContent ul li a {
+	padding:0 0 0 15px;
+	background:url(../img/shared/bullet-arrow.png) center left no-repeat;
+}
+
+.sitemap .mainContent ul li ul {
+	margin:10px 0 0 0;
+}
+
+.sitemap .mainContent ul li ul li {
+	padding:0 0 0 15px;
+}
+
+.sitemap .mainContent ul li ul li a {
+	background-image:none;
+}

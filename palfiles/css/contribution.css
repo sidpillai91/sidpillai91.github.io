@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 応援してくださる方へ用CSS                       　            　　　　　　 */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+div.contributionBox p {}
+
+div.contributionBox p.title{
+	text-align: center;
+	margin-top: 10px;
+}
+
+div.contributionBox p.title_text {
+	text-align: center;
+	line-height: 1.5;
+}
+
+div.contributionBox div.messageArea {
+	margin: 20px 0;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+div.contributionBox div.messageArea span.bold {
+	font-weight: bold;
+	color: #900;
+	font-size: 13px;
+}
+
+div.contributionBox div.messageArea p.title {
+	font-weight: bold;
+	font-size: 16px;
+	color: #5F3F1F;
+}
+
+
+div.contributionBox div.messageArea ul li {
+	list-style-type: square;
+	line-height: 1.7;
+	margin-left: 20px;
+}
+
+div.howArea {
+	padding: 10px;
+	background-color: #F9FDFD;
+	margin-top: 20px;
+}
+
+div.howArea p.title {
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 1px dotted #1B999C;
+	padding-bottom: 5px;
+}
+
+div.howArea span.bold {
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+div.howArea span.bold_red {
+	font-weight: bold;
+	color: #900;
+}
+
+div.payBox{
+	overflow: hidden;
+	margin-bottom: 15px;
+	background-color: #FFF;
+	padding: 15px 0;
+	width: 400px;
+	border: 1px dotted #0099FF;
+}
+
+div.payBox div.one {
+	float: left;
+	margin-left: 50px;
+}
+div.payBox div.next {
+	float: left;
+	margin-left: 30px;
+}

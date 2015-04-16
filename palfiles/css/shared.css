@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 各ページ共通用CSS                                   　　　　　　           */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+body,html {
+	width:100%;
+	color:#333333;
+	font-size:0.9em;
+	line-height:135%;
+	letter-spacing:0.5px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+body {
+	background:url(../img/shared/back.jpg) center bottom repeat #EFEFEF;   
+}
+
+a {
+	color:#2D6891;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+p {
+	line-height:135%;
+}
+
+.center {
+	text-align:center;
+}
+
+.alignright {
+	text-align:right;
+}
+
+.wrap {
+	width:960px;
+	margin:0 auto;
+}
+
+.header {
+	margin:0 0 30px 0;
+	position:relative;
+	overflow:hidden;
+}
+
+.header h1 {
+	margin:5px 0 10px 0;
+	font-size:0.95em;
+	line-height:1.3;
+}
+
+.header p.logo {
+	padding:20px 0 0 0;
+	width:240px;
+	float:left;
+}
+
+.header p.headBtn {
+	width:112px;
+	position:absolute;
+	top:80px;
+	right:0;
+}
+
+.header ul {
+	width:650px;
+	/*right:90px;*/
+	/*position:absolute;
+	top:90px;
+	right:0;*/
+	float:right;
+	margin:20px 0 0 100px;
+}
+
+.header ul li {
+	display: inline-block;
+	padding: 0 0 0 15px;
+	vertical-align: bottom;
+}
+
+p.btn_english {
+	float: right;}
+
+.header #fontSizer {
+	width:220px;
+	/*position:absolute;
+	top:26px;
+	right:0;
+	*/
+	float:right;
+	padding-top:5px;
+	padding-bottom:25px;
+	background:url(../img/shared/back-fontsize.png) left bottom no-repeat;
+}
+
+.header #fontSizer .fontScaler {
+	width:220px;
+	position:relative;
+	right:0;
+	top:0;
+	margin:0;
+}
+
+*html .header #fontSizer .fontScaler {
+	position:relative;
+	right:100px;
+	top:0;
+}
+
+.header #fontSizer .fontScaler li {
+	float:left;
+	padding:0 0 0 8px;
+}
+
+.header #fontSizer .fontScaler li.firstfs {
+	padding-top:6px;
+}
+
+ul.globalNav {
+	width:960px;
+	overflow:hidden;
+}
+
+ul.globalNav li {
+	float:left;
+	height:75px;
+}
+
+ul.globalNav li a {
+	height:75px;
+	display:block;
+	text-indent:-9999px;
+}
+
+ul.globalNav li.gNav01 {
+	width:222px;
+}
+
+ul.globalNav li.gNav01 a {
+	background:url(../img/shared/gNav01.png) top left no-repeat;
+}
+
+.about ul.globalNav li.gNav01 a,
+ul.globalNav li.gNav01 a:hover {
+	background:url(../img/shared/gNav01-ov.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav02 {
+	width:123px;
+}
+
+ul.globalNav li.gNav02 a {
+	background:url(../img/shared/gNav02.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav02 a:hover,
+.play ul.globalNav li.gNav02 a {
+	background:url(../img/shared/gNav02-ov.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav03 {
+	width:133px;
+}
+
+ul.globalNav li.gNav03 a {
+	background:url(../img/shared/gNav03.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav03 a:hover,
+.work ul.globalNav li.gNav03 a {
+	background:url(../img/shared/gNav03-ov.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav04 {
+	width:125px;
+}
+
+ul.globalNav li.gNav04 a {
+	background:url(../img/shared/gNav04.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav04 a:hover,
+.life ul.globalNav li.gNav04 a {
+	background:url(../img/shared/gNav04-ov.png) top left no-repeat;
+}
+
+
+ul.globalNav li.gNav05 {
+	width:154px;
+}
+
+ul.globalNav li.gNav05 a {
+	background:url(../img/shared/gNav05.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav05 a:hover,
+.international ul.globalNav li.gNav05 a {
+	background:url(../img/shared/gNav05-ov.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav06 {
+	width:203px;
+}
+
+ul.globalNav li.gNav06 a {
+	background:url(../img/shared/gNav06.png) top left no-repeat;
+}
+
+ul.globalNav li.gNav06 a:hover,
+.tsushin ul.globalNav li.gNav06 a {
+	background:url(../img/shared/gNav06-ov.png) top left no-repeat;
+}
+
+.footer {
+	width:960px;
+	height:41px;
+	margin:0 0 15px 0;
+	position:relative;
+	overflow:hidden;
+	border-bottom:3px solid #624120;
+}
+
+.footer p {
+	width:128px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.footer ul {
+	width:600px;
+	overflow:hidden;
+	padding:15px 0 0 0;
+}
+
+.footer ul li {
+	float:left;
+	padding:0 15px 0 0;
+}
+
+p.copyright {
+	margin:0 0 15px 0;
+	text-align:center;
+}

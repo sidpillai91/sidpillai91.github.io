@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: サイトポリシー用CSS                       　            　　　　　　       */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.policy .MainArea .leftArea .mainContent h3 {
+	background:url(../img/shared/bullet-check.jpg) center left no-repeat;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:0 0 15px 0;
+	padding:0 0 0 25px;
+	border-bottom:none;
+}
+
+ul.browsers {
+	margin:0 0 15px 0;
+}
+
+ul.browsers li {
+	margin:0 0 7px 0;
+}

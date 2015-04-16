@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: 個人情報保護方針用CSS                       　            　　　　　　    */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+.mainContent ol {
+	padding:0 0 0 20px;
+}
+
+.mainContent ol li {
+	margin:0 0 15px 0;
+	list-style: decimal outside none;
+	line-height:140%;
+}
+
+.mainContent ol li ul {
+	margin:15px 0 0 0;
+	padding:0 0 0 20px;
+}
+
+.mainContent ol li ul li {
+	list-style:circle;
+}

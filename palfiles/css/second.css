@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* ################################################################################ */
+/*                                                                                  */
+/* 表題: セカンドページ用CSS                                   　　　　　　         */
+/* 作成日: 2012-04-13                                                               */
+/* 最終更新日: 2012-04-13       　                                                  */
+/*                                                                                  */
+/* ################################################################################ */
+
+ul.pankuzu {
+	width:960px;
+	margin:25px 0 30px 0;
+	overflow:hidden;
+}
+
+ul.pankuzu li {
+	float:left;
+	padding:0 10px 0 0;
+	line-height:1.1em;
+}
+
+ul.pankuzu li a {
+	padding:0 15px 0 0;
+	background:url(../img/shared/bullet-arrow.png) center right no-repeat;
+	text-decoration:underline;
+	line-height:1.1em;
+}
+
+ul.pankuzu li a:hover {
+	text-decoration:none;
+}
+
+.MainArea {
+	width:960px;
+	overflow:hidden;
+	margin:0 0 20px 0;
+}
+
+.MainArea .leftArea {
+	width:700px;
+	float:left;
+}
+
+.MainArea .leftArea  .mainContent {
+	width:660px;
+	padding:19px;
+	border:1px solid #CCCCCC;
+	background:#FFFFFF;
+}
+
+.MainArea .leftArea  .mainContent h3 {
+	padding:0 0 10px 0;
+	margin:0 0 20px 0;
+	border-bottom:1px dotted #999999;
+}
+
+.MainArea .leftArea  .mainContent p {
+	margin:0 0 15px 0;
+	line-height:135%;
+}
+
+.MainArea .rightArea {
+	width:230px;
+	float:right;
+}
+
+.MainArea .rightArea .subNavArea {
+	background:url(../img/shared/border-subnav.png) top left no-repeat;
+	margin:0 0 30px 0;
+	padding:25px 0 0 0;
+}
+
+.MainArea .rightArea .subNavArea h3 {
+	margin:0 0 20px 0;
+}
+
+.MainArea .rightArea .subNavArea ul {
+	padding:6px 0 6px 0;
+	border-top:1px dotted #624120;
+	border-bottom:1px dotted #624120;
+}
+
+.MainArea .rightArea .subNavArea ul li {
+	padding:6px 0;
+}
+
+.MainArea .rightArea .subNavArea ul li a {
+	padding:0 0 0 20px;
+	background:url(../img/shared/bullet-circle.png) center left no-repeat;
+	line-height:1.2em;
+	color:#333333;
+	text-decoration:none;
+}
+
+.MainArea .rightArea .subNavArea ul li a:hover {
+	text-decoration:underline;
+}
+
+.MainArea .rightArea ul.sideBanner {
+	padding:0 0 15px 0;
+}
+
+.MainArea .rightArea ul.sideBanner li {
+	margin:0 0 15px 0;
+}
+
+.MainArea .rightArea ul.sideBannerContact {
+	margin:5px 0 0 0;
+}
+
+.MainArea .rightArea ul.sideBannerContact li {
+	margin:0 0 5px 0;
+}
+
