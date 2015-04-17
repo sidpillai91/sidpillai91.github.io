@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" href="../user_data/css/common.css.html" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss/index.php.html" />
+<script type="text/javascript" src="../user_data/packages/default/js/css.js.html"></script>
+<script type="text/javascript" src="../user_data/packages/default/js/navi.js.html"></script>
+<script type="text/javascript" src="../user_data/packages/default/js/win_op.js.html"></script>
+<script type="text/javascript" src="../user_data/packages/default/js/site.js.html"></script>
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>おかし屋ぱれっとショップ/お客様の声書き込み（入力ページ）</title>
+</head>
+<body onload="preLoadImg('/user_data/packages/default/')">
+<a name="top" id="top"></a>
+
+<div id="windowcolumn">
+  <div id="windowarea">
+    <h2><img src="../user_data/packages/default/img/products/review_title.jpg.html" width="500" height="40" alt="お客様の声書き込み" /></h2>
+    <p class="windowtext">以下の商品について、お客様のご意見、ご感想をどしどしお寄せください。<br />
+      「<span class="attention">※</span>」印は入力必須項目です。<br />
+       ご入力後、一番下の「確認ページへ」ボタンをクリックしてください。</p>
+        <form name="form1" method="post" action="review.php.html">
+        <input type="hidden" name="mode" value="confirm" />
+        <input type="hidden" name="product_id" value="" />
+        <input type="hidden" name="transactionid" value="222bc70b64b01ec09c09c5736acb3bb0bf796de3" />
+        <table summary="お客様の声書き込み">
+          <tr>
+            <th>商品名</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th>投稿者名<span class="attention">※</span></th>
+            <td><span class="attention"></span><input type="text" name="reviewer_name" value="" maxlength="50" style="" size="40" class="box350" /></td>
+          </tr>
+          <tr>
+            <th>ホームページアドレス</th>
+            <td><span class="attention"></span><input type="text" name="reviewer_url" value="" maxlength="200" style="" size="40" class="box350" /></td>
+          </tr>
+          <tr>
+            <th>性別</th>
+            <td>
+              <input type="radio" name="sex" id="man" value="1"  /><label for="man">男性</label>&nbsp;
+              <input type="radio" name="sex" id="woman" value="2"  /><label for="woman">女性</label>
+            </td>
+          </tr>
+          <tr>
+            <th>おすすめレベル<span class="attention">※</span></th>
+            <td>
+              <span class="attention"></span>
+              <select name="recommend_level" style="">
+                <option value="" selected="selected">選択してください</option>
+                  <option label="★★★★★" value="5">★★★★★</option>
+<option label="★★★★" value="4">★★★★</option>
+<option label="★★★" value="3">★★★</option>
+<option label="★★" value="2">★★</option>
+<option label="★" value="1">★</option>
+
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>タイトル<span class="attention">※</span></th>
+            <td>
+              <span class="attention"></span>
+              <input type="text" name="title" value="" maxlength="50" style="" size="40" class="box350" />
+            </td>
+          </tr>
+          <tr>
+            <th>コメント<span class="attention">※</span></th>
+            <td>
+              <span class="attention"></span>
+              <textarea name="comment" cols="50" rows="10" style="" class="area350"></textarea>
+            </td>
+          </tr>
+        </table>
+        <div class="btn">
+          <input type="image" onmouseover="chgImgImageSubmit('/user_data/packages/default/img/common/b_confirm_on.gif',this)" onmouseout="chgImgImageSubmit('/user_data/packages/default/img/common/b_confirm.gif',this)" src="../user_data/packages/default/img/common/b_confirm.gif" class="box150" alt="確認ページへ" name="conf" id="conf" />
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

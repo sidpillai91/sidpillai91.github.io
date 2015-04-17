@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+
+/* MYPAGE共通指定
+----------------------------------------------- */
+div#mypagecolumn {
+    margin: 0 auto;
+}
+
+div#mypagecolumn table {
+	margin: 0;
+	padding: 0;
+}
+
+div#mycontentsarea table th {
+    width: 140px;
+	margin: 0;
+	padding: 8px;
+	border-top: 1px solid #D9D9D9;
+	background: #F2F2F2;
+}
+
+div#mycontentsarea table td {
+	margin: 0;
+	padding: 8px;
+	background: transparent;
+	border-top: 1px solid #D9D9D9;
+	line-height: 1.6;
+}
+
+
+div#mycontentsarea table th.resulttd {
+    text-align: right;
+}
+
+div#mycontentsarea table.delivname th {
+    text-align: left;
+    width: 140px;
+}
+
+div#mycontentsarea table caption {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 8px;
+    background-color: #f0f0f0;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+}
+
+
+/* 購入履歴一覧/詳細
+----------------------------------------------- */
+div#mynavarea {
+    float: left;
+    width: 180px;
+	text-align: right;
+	padding-left:10px;
+}
+
+div#mynavarea ul {
+	width: 170px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#mynavarea li {
+	margin: 0 0 3px;
+	padding: 0;
+    /*display: block;*/
+}
+
+div#mynavarea #customer_info {
+	margin: 10px 0 0;
+	padding: 10px;
+	font-size: 100%;
+	text-align: left;
+	border: 3px solid #E9787F;
+	background: #FFFFE8;
+}
+
+div#mynavarea li img {
+	vertical-align: bottom;
+}
+
+div#mycontentsarea {
+	margin-right:10px;
+    float: right;
+}
+
+div#mycontentsarea h3 {
+    margin: 0 0 10px 0;
+	font-size:110%;
+}
+
+div#mycontentsarea table th {
+    text-align: center;
+}
+
+div#mycontentsarea p.myconditionarea {
+	clear: both;
+	margin: 15px auto 25px;
+	padding: 15px;
+	border: solid 3px #CCC;
+	line-height: 1.6;
+}
+
+div#mycontentsarea p.history-info {
+}
+
+div#mycontentsarea p.delivempty {
+	clear: both;
+	margin: 30px 25px;
+	padding: 10px 0;
+	border: solid 5px #CCC;
+	text-align: center;
+}
+
+#no-history {
+	margin: 50px 0;
+	text-align: center;
+}
+
+div#mycontentsarea div.tblareabtn{
+    margin: 0 auto;
+	padding-top:10px;
+}
+
+/* 会員登録内容変更/>退会
+----------------------------------------------- */
+div#mycontentsarea .box120 {
+    width: 120px;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#mycontentsarea .box60 {
+    width: 60px;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#mycontentsarea .box300 {
+    width: 300px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#mycontentsarea input.mailform {
+	width: 300px;
+    margin: 5px 0 3px 0;
+    padding: 2px 3px;
+	font-weight: bold;
+	font-size: 125%;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#mycontentsarea .box260 {
+    width: 260px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#mycontentsarea .zipimg img {
+    margin: 5px 0 0 0;
+}
+
+#div#mycontentsarea .change-info {
+	margin: 10px 15px 15px 10px;
+}
+
+#div#mycontentsarea .deliv-info {
+	margin: 10px 15px 15px;
+}
+
+div#mycontentsarea #completetext {
+	width: 500px;
+	margin: 15px auto 0;
+	padding: 15px;
+	border: 5px solid #ccc;
+}
+
+div#completetext p.changetext {
+	padding: 40px 0;
+	line-height: 1.8;
+	text-align: center;
+}
+
+div#mycontentsarea table .change-attention {
+	margin: 5px 0;
+	font-size: 80%;
+	line-height: 1.4;
+	color: #C00;
+}
+
+div#mycontentsarea div.tblareabtn img{
+	vertical-align:baseline;
+}
+
+div#mycontentsarea div#err ul{
+	list-style-type:none;
+}

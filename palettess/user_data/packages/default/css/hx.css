@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+
+h2#title-abouts {
+	margin: 0 0 2px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-order {
+	margin: 0 0 2px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-entry {
+	margin: 0 0 2px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-privacy {
+	margin: 0 0 2px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-contact {
+	margin: 0 0 2px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-shopping {
+	margin: 0 0 12px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg_2.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-mypage {
+	margin: 0 0 2px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg_2.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-cartpage {
+	margin: 0 0 12px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg_2.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}
+
+h2#title-forget {
+	width: 492px;
+	margin: 0;
+	padding: 0 0 0 8px;
+	font-size: 90%;
+	color: #666;
+	text-align: left;
+	border-left: 6px solid #333;
+}
+
+h2#title-search-address {
+	width: 492px;
+	margin: 0;
+	padding: 0 0 0 8px;
+	font-size: 90%;
+	color: #666;
+	text-align: left;
+	border-left: 6px solid #333;
+}
+
+h2#title-deliv-addr {
+	width: 492px;
+	margin: 0;
+	padding: 0 0 0 8px;
+	font-size: 90%;
+	color: #666;
+	text-align: left;
+	border-left: 6px solid #333;
+}
+
+h3.title-mypage-sub {
+	margin: 0;
+	padding: 8px 5px;
+	font-size: 90%;
+	color: #555;
+	background: #FBFBFB;
+	border-top: 2px solid #CDCDCD;
+	border-bottom: 2px solid #CDCDCD;
+}
+
+h3.title-shopping-sub {
+	margin: 0;
+	padding: 8px;
+	font-size: 90%;
+	color: #555;
+	background: #EDEDED;
+	border-left: 5px solid #CDCDCD;
+}
+
+/* セカンド以降のサブタイトル
+----------------------------------------*/
+div#undercolumn h3.sub_title_2{
+	clear:both;
+	margin: 10px 0 2px;
+	padding: 3px 0 5px;
+	text-align:center;
+	font-size:110%;
+	background-image: url("../img/bloc/title_bg_3.gif");
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	border:none;
+}

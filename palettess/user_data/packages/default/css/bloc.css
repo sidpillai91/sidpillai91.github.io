@@ -1,0 +1,533 @@
+﻿@charset "utf-8";
+
+/* Block Title
+----------------------------------------------- */
+h2.title-side {
+	margin: 0 0 1px;
+	padding: 0;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+h2.title-center {
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+h2#title-search {
+	background: url(../img/bloc/title-search.gif) no-repeat;
+}
+
+h2#title-category {
+	background: url(../img/bloc/title-category.gif) no-repeat;
+}
+
+h2#title-login {
+	background: url(../img/bloc/title-login.gif) no-repeat;
+}
+
+h2#title-cart {
+	background: url(../img/bloc/title-cart.gif) no-repeat;
+}
+
+h2#title-recommend {
+	background: url(../img/bloc/title-recommend.gif) no-repeat;
+}
+
+h2#title-information {
+	background: url(../img/bloc/title-information.gif) no-repeat;
+}
+
+h2#title-calendar {
+	background: url(../img/bloc/title-calendar.gif) no-repeat;
+}
+
+h2#title-news {
+	height: 30px;
+	background: url(../img/bloc/title-news.gif) no-repeat;
+}
+
+h2#title-newitem {
+	height: 30px;
+	background: url(../img/bloc/title-newitem.gif) no-repeat;
+}
+
+/* Side Block
+----------------------------------------------- */
+.block-side {
+	margin: 0 0 10px;
+	overflow: hidden;
+}
+
+/* Center Block
+----------------------------------------------- */
+.block-center {
+	margin: 10px 0 10px;
+	overflow: hidden;
+}
+
+
+/* 商品検索
+----------------------------------------*/
+#block-search{
+	border:1px solid #E6E6E6;
+	background-color:#FFFFE7;
+	text-align:left;
+}
+
+#block-search form {
+	margin: 0;
+	padding: 0;
+}
+
+#block-search table {
+	margin: 10px auto;
+	padding: 0;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+#block-search td{
+	padding-bottom:5px;
+}
+
+#block-search table td.search_btn{
+	text-align:center;
+}
+
+#block-search td .input-text180 {
+	width: 176px;
+}
+
+#block-search td .input-text180s {
+	width: 180px;
+}
+
+#block-search th {
+	font-weight: normal;
+	font-size:80%;
+}
+
+
+
+
+/* Search Block
+-----------------------------------------------
+#block-search {
+	background: #FFF;
+	border: 1px solid #E5E5E5;
+}
+
+#block-search form {
+	margin: 0;
+	padding: 0;
+}
+
+#block-search table {
+	margin: 10px auto;
+	padding: 0;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+#block-search th {
+	padding: 0 0 4px;
+}
+
+#block-search td {
+	padding: 0 0 10px;
+}
+
+#block-search td .input-text180 {
+	width: 136px;
+}
+
+#block-search td .input-text180s {
+	width: 143px;
+}
+
+#block-search .btn {
+	padding: 0;
+	text-align: center;
+}
+ */
+
+/* Category ( or Brand or Item) Block
+----------------------------------------------- */
+#block-category {
+	padding: 0 0 10px;
+	background: #FFF;
+	border:1px solid #E6E6E6;
+}
+
+ul#categorytree {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul#categorytree li img {
+	vertical-align: bottom;
+}
+
+
+ul#categorytree ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+ul#categorytree ul li {
+	margin: 0;
+	padding: 0;
+}
+
+li.level1 a {
+	display: block;
+	padding: 4px 4px 4px 22px;
+	text-decoration: none;
+	background: #FFFFE7 url(../img/bloc/bg-category.gif) no-repeat left center;
+	border-bottom: 1px dotted #E5E5E5;
+	background-position:5px;
+}
+
+li.level1 a:hover {
+	padding: 4px 4px 4px 22px;
+	color: #000000;
+	background: #FFFFCE url(../img/bloc/bg-category.gif) no-repeat left center;
+	border-bottom: 1px dotted #E5E5E5;
+	background-position:5px;
+}
+
+li.level1 a.onlink {
+	padding: 4px 4px 4px 22px;
+	color: #000000;
+	background: #FFFFCE url(../img/bloc/bg-category.gif) no-repeat left center;
+	border-bottom: 1px dotted #E5E5E5;
+	background-position:5px;
+}
+
+li.level2 a {
+	display: block;
+	padding: 2px 4px 2px 30px;
+	text-decoration: none;
+	background: #FFFFFF url(../img/bloc/list001.gif) no-repeat left center;
+	background-position:15px;
+}
+
+li.level2 a:hover {
+	padding: 2px 4px 2px 30px;
+	color: #84A7C1;
+	background: #F6F6F6 url(../img/bloc/list001.gif) no-repeat left center;
+	background-position:15px;
+}
+
+li.level2 a.onlink {
+	padding: 2px 4px 2px 30px;
+	color: #84A7C1;
+	background: #F6F6F6 url(../img/bloc/list001.gif) no-repeat left center;
+	background-position:15px;
+}
+
+li.level3 a {
+	display: block;
+	padding: 2px 4px 2px 40px;
+	background-color: #FFFFFF;
+	background-image: none;
+	text-decoration: none;
+}
+
+li.level3 a:hover {
+	padding: 2px 4px 2px 40px;
+	color: #84A7C1;
+	background-color: #F6F6F6;
+	background-image: none;
+}
+
+li.level3 a.onlink {
+	padding: 2px 4px 2px 40px;
+	color: #84A7C1;
+	background-color: #F6F6F6;
+	background-image: none;
+}
+
+
+/* Login Block
+----------------------------------------------- */
+#block-login {
+	border:1px solid #E6E6E6;
+	background-color:#FFFFE7;
+}
+
+#block-login table {
+	margin: 10px auto 5px;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+#block-login table .input-text100 {
+	width: 120px;
+}
+
+ul#forgot-link {
+	margin: 10px 0 5px;
+	padding: 6px 0 0;
+	border-top: 1px solid #CCC;
+	list-style: none;
+}
+
+ul#forgot-link li {
+	margin: 3px 0 3px 0;
+	padding: 0;
+	font-size:90%;
+}
+
+#block-login .welcome_message {
+	margin: 10px 10px 15px;
+}
+
+#block-login .mypoint {
+	margin: 5px 10px;
+	font-size: 90%;
+	text-align: center;
+}
+
+#block-login .btn {
+	margin: 10px;
+	text-align: center;
+}
+
+#block-login .small{
+	font-size:90%;
+	line-height: 1.4;
+}
+
+#block-login .right{
+	font-size:80%;
+	font-weight: normal;
+	text-align:right;
+}
+
+/* Cart Block
+----------------------------------------------- */
+#block-cart {
+	border:1px solid #E6E6E6;
+	background-color:#FFFFE7;
+}
+
+#block-cart ul, #block-cart li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#block-cart form {
+	margin: 0;
+	padding: 0;
+}
+
+.cart-item-cnt {
+	margin: 8px 10px;
+	padding: 0 0 5px;
+	font-size: 90%;
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.tb-cart-item {
+	margin: 0 auto 5px;
+	padding: 0;
+	font-size: 90%;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+.tb-cart-item-end {
+	margin: 0 auto 5px;
+	padding: 0;
+	border-bottom: 1px dotted #CCCCCC;
+	font-size: 90%;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+.tb-cart-item-end td {
+	padding-bottom: 5px;
+}
+
+.cart-item-photo {
+	width: 55px;
+}
+
+.cart-item-name {
+	font-size: 85%;
+}
+
+.cart-item-value {
+	font-size: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+#cart-price-total {
+	margin: 5px 10px 8px;
+	padding: 0;
+	text-align: right;
+	font-weight: bold;
+	color: #573C2B;
+	font-size:110%;
+}
+
+#cart-carriage {
+	margin: 5px;
+	padding: 0;
+	font-size: 80%;
+	text-align: center;
+}
+
+
+#cart-pay-btn {
+	margin: 0.8em 10px 10px;
+	padding: 0;
+	text-align: center;
+}
+
+
+/* Recommend Block
+----------------------------------------------- */
+#block-recommend {
+	padding: 15px 0 0;
+	background: #FFF;
+	border: 1px solid #E5E5E5;
+	text-align: center;
+}
+
+#block-recommend h3 {
+	margin: 0;
+	font-size: 90%;
+	text-align: center;
+}
+
+.recommend-box {
+	margin: 0 10px 15px;
+	padding: 0 0 15px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+.recommend-photo {
+	margin: 0;
+	padding: 0;
+}
+
+.recommend-photo img {
+	margin: 0;
+}
+
+.recommend-price {
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	text-align: center;
+}
+
+.recommend-info {
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	text-align: left;
+}
+
+
+/* Information Block
+----------------------------------------------- */
+#block-information {
+	background: #FFF;
+	border: 1px solid #E5E5E5;
+}
+
+
+/* Guide Block
+----------------------------------------------- */
+#block-guide {
+
+}
+
+
+/* Calendar Block
+----------------------------------------------- */
+#block-calendar {
+	background: #FFF;
+	border: 1px solid #E6E6E6;
+}
+
+#block-calendar table {
+	margin: 10px auto;
+	font-size: 90%;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+
+#block-calendar caption {
+	margin: 0;
+	padding: 10px 0 0;
+	color: #888;
+	text-align: center;
+	border-top: 1px solid #E6E6E6;
+}
+
+#block-calendar th {
+	text-align: center;
+	font-weight: lighter;
+}
+
+#block-calendar td {
+	padding:1px 5px 1px 5px;
+	text-align: center;
+}
+
+#block-calendar .holiday {
+	background: #C00;
+	color: #FFF;
+}
+
+
+/* Cagolab banner Block
+----------------------------------------------- */
+#block-cagolab-banner {
+
+}
+
+/* News Block
+----------------------------------------------- */
+#block-news {
+	clear: both;
+}
+
+#block-news dl {
+	height: 240px;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+#block-news dt {
+	margin: 0 0 3px;
+	padding: 0;
+	color: #668886;
+}
+
+#block-news dt.endline {
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	border-bottom: 1px dotted #BBBBBB;
+}
+
+#block-news dd {
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	border-bottom: 1px dotted #BBBBBB;
+}
+
+/* Newitem Block（定義はlist.cssに移動）
+----------------------------------------------- */

@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+
+/* 商品詳細拡大写真
+----------------------------------------------- */
+div#bigimage {
+	margin: 15px auto 0;
+}
+
+div#bigimage img {
+	padding: 10px;
+	background-color: #ffffff;
+	border: 1px solid #CCC;
+}
+
+
+/* カート拡大写真
+----------------------------------------------- */
+div#cartimage {
+	margin: 15px auto 0;
+}
+
+div#cartimage img {
+	padding: 10px;
+	background-color: #ffffff;
+	border: 1px solid #CCC;
+}
+
+
+/* お客様の声の書き込み・新しいお届け先の追加・変更
+----------------------------------------------- */
+div#windowcolumn {
+    width: 550px;
+    margin: 15px auto 0 auto;
+	border: 1px solid #999;
+    background-color: #F9F9F9;
+
+}
+
+div#windowarea {
+	width: 500px;
+	margin: 15px auto 0 auto;
+	line-height: 1.5;
+}
+
+div#windowarea p {
+	margin: 15px 0;
+	text-align: left;
+	line-height: 1.6;
+}
+
+div#windowarea div.attention {
+	margin: 0 30px 15px;
+	text-align: left;
+	font-size: 80%;
+}
+
+div#windowarea p.windowtext {
+    margin: 15px 0 0 0;
+}
+
+div#windowarea table {
+	width: 490px;
+	text-align: left;
+}
+
+div#windowarea th {
+	width: 140px;
+	margin: 0;
+	padding: 8px;
+	border: 1px solid #D9D9D9;
+	background: #EEE;
+}
+
+div#windowarea td {
+	padding: 8px;
+}
+
+div#windowarea .zipimg img {
+    margin: 5px 0 0 0;
+}
+
+div#windowarea .box350 {
+    width: 350px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#windowarea .area350 {
+    width: 350px;
+    height: 120px;
+    border: 1px solid #ccc;
+}
+
+div#windowarea .box120 {
+    width: 120px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#windowarea .box60 {
+    width: 60px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#windowarea .box300 {
+    width: 300px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+div#windowarea .mailform {
+    width: 300px;
+    padding: 2px;
+	font-weight: bold;
+	font-size: 125%;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#windowarea .btn {
+    margin: 15px 0 30px 0;
+    text-align: center;
+}
+
+div#windowarea #completebox {
+    width: 490px;
+    margin: 15px 0 0 0;
+    border: 5px solid #ccc;
+}
+
+div#windowarea #completebox p{
+    padding: 60px 5px;
+    text-align: center;
+}
+
+/* 郵便番号検索
+----------------------------------------------- */
+div#zipsearchcolumn {
+    width: 460px;
+    margin: 15px auto 0 auto;
+    background-color: #fff;
+    border-top: 5px solid #FFF;
+    border-bottom: 5px solid #FFF;
+}
+
+div#zipsearchcolumn h2 {
+    width: 460px;
+    margin: 0 0 15px 0;
+}
+
+div#zipsearcharea {
+    width: 460px;
+    margin: 15px auto 0 auto;
+}
+
+div#zipsearchcolumn .btn {
+    margin: 15px 0 30px 0;
+    text-align: center;
+}
+
+div#zipsearcharea #completebox p{
+    padding: 60px 5px;
+    text-align: center;
+}
+
+/* 在庫表示 */
+
+body#stock {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	border-top: 12px solid #777;
+}
+
+#stock div {
+	width: 500px;
+	margin: 10px auto;
+	text-align: left;
+}
+
+#stock form {
+	text-align: center;
+}
+
+#tb-stock-info {
+	width: 480px;
+	margin: 10px auto 30px;
+	padding: 0;
+	font-size: 80%;
+	border-bottom: 2px solid #777;
+}
+
+#tb-stock-info th, #tb-stock-info td {
+	padding: 5px;
+}
+
+#tb-stock-info th {
+	color: #FFF;
+	background: #777;
+	border-left: 1px solid #FFF;
+}
+
+#stock-title {
+	margin-top: 30px;
+	font-size: 120%;
+}
+
+#stock-name {
+	font-size: 120%;
+}
+
+.odd {
+	background: #F3F3F3;
+}
+
+#close_button {
+	cursor : pointer;
+}

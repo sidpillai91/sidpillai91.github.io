@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*F001 width指定CSS（デザイン850px基準） */
+
+/* デザインサイズ
+----------------------------------------
+#wrapper {
+	width: 900px;
+}
+
+#header { 
+	width: 850px;
+}
+
+ul#navi {
+	width: 850px;
+}
+
+ul#navi,
+ul#navi a,
+ul#navi a:link,
+ul#navi a:visited {
+	height: 40px;
+}
+
+#photo-main {
+	width: 850px;
+}
+
+#contents { 
+	width: 850px;
+}
+
+#footer {
+	width: 850px;
+}
+*/
+/* 各カラムサイズ
+----------------------------------------*/
+/* 左カラム設定 */
+/*#column_left {
+    width: 165px;
+}
+
+#column_left table{
+    width: 143px;
+}
+*/
+/* 右カラム設定 */
+/*#column_right {
+    width: 165px;
+}
+
+#column_right table {
+    width: 143px;
+}
+*/
+/* 3カラム設定 */
+/*#column_center_three {
+	width: 500px;
+}
+*/
+/* 2カラム設定 */
+/*#column_center_two {
+	width: 675px;
+}
+*/
+/* 1カラム設定 */
+/*#column_center_one {
+}
+*/
+/* サブページサイズ
+----------------------------------------*/
+/* カラムありページの時 */
+/*div#undercolumn {
+}
+
+div#undercolumn table {
+	width: 675px;
+}
+
+/* カラムなしページの時 */
+/*div#under02column {
+}
+
+div#under02column table {
+	width: 800px;
+}
+
+/* マイページサイズ
+----------------------------------------*/
+div#mypagecolumn {
+}
+
+/* ナビゲーションカラム（基本的に変更なし） */
+div#mynavarea {
+	width: 180px;
+}
+
+/* コンテンツカラム */
+div#mycontentsarea {
+	width: 655px;
+}
+
+div#mycontentsarea table {
+	width: 655px;
+}
+
+/* ブロックタイトルサイズ
+----------------------------------------*/
+/* 左右カラム内タイトル */
+/*h2.title-side {
+	width: 165px;
+	height: 30px;
+}
+*/
+/* 中央カラム内タイトル */
+/*h2.title-center {
+	width: 500px; {
+	height: 30px;
+}
+*/
+/* ブロックサイズ
+---------------------------------------------*/
+/* .block-side {
+	width: 163px;
+}
+
+
+.block-center {
+	width: 500px;
+}
+
+*/

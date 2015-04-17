@@ -1,0 +1,678 @@
+@charset "utf-8";
+
+/* body
+----------------------------------------*/
+body {
+	margin: 0;
+	padding: 0;
+	color: #573C2B;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	background-color:#FFFFFF;
+	background-image: url("../img/share/body_bg.jpg");
+	background-repeat:repeat-x;
+	line-height: 1.6;
+	font-size: 80%;
+}
+
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,
+ul,ol,dl,dd form{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border:0;
+	vertical-align:bottom;
+}
+
+a{ text-decoration:underline; color:#333333; font-weight:normal;}
+a:hover{text-decoration:none; color:#333333; font-weight:normal;}
+
+.clear{
+	clear:both;
+}
+
+.centerView{
+	text-align:center;
+}
+
+div#wrapper{
+	width:900px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+}
+
+/* 1カラム
+----------------------------------------*/
+#column_center_one {
+	margin: 0;
+	padding: 0;
+}
+
+#contents{
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+
+#contents em{
+	margin: 0;
+	padding: 0;
+	font-style:normal;
+}
+
+#undercolumn{
+	width:504px;
+}
+
+#undercolumn div#pan{
+	text-align:right;
+}
+
+/* ヘッダー
+----------------------------------------*/
+
+div#wrapper div.header{
+	height:102px;
+	background-image: url("../img/share/header_bg.gif");
+	background-repeat:repeat-x;
+	background-color:#FFFFFF;
+}
+
+div#wrapper div.header h1{
+	text-align:center;
+	font-weight:normal;
+	font-size:10px;
+}
+
+div#wrapper div.header div.h_title{
+	width:505px;
+	float:left;
+	padding:22px 10px 0 5px;
+}
+
+div#wrapper div.header div.h_title h2{
+	padding:0 10px 0 15px;
+	width:455px;
+	float:left;
+	vertical-align:bottom;
+}
+
+div#wrapper div.header div.h_title p{
+	padding-top:5px;
+}
+
+div#wrapper div.header div.h_detail{
+	padding:15px 5px 0 0;
+}
+
+div#wrapper div.header div.h_detail form{
+	margin:0;
+	padding:0;
+}
+
+div#wrapper div.header ul.head_navi{
+	margin:5px 0 5px 0;
+}
+
+div#wrapper div.header ul.head_navi li{
+	list-style-type:none;
+	display:inline;	
+	padding:0 0 0 2px;
+}
+
+/* グローバルナビゲーション
+----------------------------------------*/
+
+div#wrapper ul.navigation{
+	margin:0;
+	padding-bottom:3px;
+	border-left:1px solid #E6E6E6;
+	border-right:1px solid #E6E6E6;
+}
+
+div#wrapper ul.navigation li{
+	display:inline;
+}
+
+/* 左メニュー
+----------------------------------------*/
+div#wrapper div#column_left{
+	clear:both;
+	margin-right:4px;
+	width:194px;
+	height:100%;
+	float:left;
+}
+
+/* お取り扱い商品
+----------------------------------------*/
+div#wrapper ul.product{
+	margin-bottom:5px;
+}
+
+div#wrapper ul.product li{
+	list-style-type:none;
+	border-right:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	background-position:15px 10px;
+	list-style-position:outside;
+}
+
+div#wrapper ul.product li.title{
+	background-image:none;
+}
+
+div#wrapper ul.product li.list{
+	background-image:url(../img/share/list001.gif);
+	background-repeat:no-repeat;
+	padding:5px 0 5px 30px;
+}
+
+
+/* スイーツンスマイルとは
+----------------------------------------*/
+div#wrapper p.banner{
+	padding-top:5px;
+}
+
+div#wrapper p.banner_2{
+	padding-top:10px;
+}
+
+div#wrapper p.text{
+	font-size:10px;
+	padding-left:5px;
+}
+
+div#wrapper p.sub_title{
+	padding:0px;
+	margin:0px;
+}
+
+div#wrapper div#smile_navi{
+	width:504px;
+	height:67px;
+	background-image: url(../img/smile/sub_navi_bg.jpg);
+	background-repeat:repeat-x;
+	background-position:0px 10px;
+	padding-bottom:5px;
+}
+
+div#wrapper div#smile_navi ul.one{
+	list-style-type:none;
+	padding:30px 0 0 70px;
+	overflow:hidden;
+}
+
+div#wrapper div#smile_navi ul.one li{
+	float:left;	
+	background-image:url(../img/smile/list.gif);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding:0 15px 0 20px;
+}
+
+div#wrapper div#smile_navi ul.two{
+	clear:both;
+	list-style-type:none;
+	padding:0px 0 0 70px;
+}
+
+div#wrapper div#smile_navi ul.two li{
+	float:left;	
+	background-image:url(../img/smile/list.gif);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding:0 15px 0 20px;
+}
+
+div#wrapper div#okashiya_navi{
+	width:504px;
+	height:52px;
+	background-image: url(../img/okashiya/okashiya_navi_bg.jpg);
+	background-repeat:repeat-x;
+	background-position:0px 10px;
+	padding-bottom:5px;
+}
+
+div#wrapper div#okashiya_navi ul.one{
+	list-style-type:none;
+	padding:25px 0 0 60px;
+}
+
+div#wrapper div#okashiya_navi ul.one li{
+	float:left;	
+	background-image:url(../img/okashiya/list.gif);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	padding:0 8px 0 15px;
+}
+
+
+
+/* コンテンツ
+----------------------------------------*/
+div#wrapper div#column_center_three{
+	/*margin-right:4px;*/
+	width:504px;
+	float:left;
+}
+
+/* メインイメージ
+----------------------------------------*/
+div#wrapper div#column_center_three h3.mainimage{
+	padding-bottom:5px;	
+}
+
+div#wrapper div#column_center_three p.banner_gift{
+	margin-bottom:5px;
+}
+
+div#wrapper div#column_center_three dl.topBanner_1{
+	margin-right:10px;
+	width:247px;
+	float:left;
+}
+
+div#wrapper div#column_center_three dl.topBanner_1 dd{
+	margin:0;
+	background-image:url(../img/share/list001.gif);
+	background-repeat:no-repeat;
+	background-position:5px 5px;
+	padding:0 0 0 18px;
+	letter-spacing: -1px;
+}
+
+div#wrapper div#column_center_three dl.topBanner_2 dd{
+	margin:0;
+	background-image:url(../img/share/list001.gif);
+	background-repeat:no-repeat;
+	background-position:5px 5px;
+	padding:0 0 0 18px;
+	letter-spacing: -1px;
+}
+
+div#wrapper div#column_center_three dl.topBanner_2{
+	width:247px;
+	float:left;
+}
+
+
+/* 新着情報
+----------------------------------------*/
+div#wrapper div#column_center_three div.news{
+
+	margin-top:175px;
+	width:502px;
+	/*float:left;*/
+	background-color:#F7F7F0;
+	border:1px solid #E8E8E8;
+	clear:both;
+}
+
+div#wrapper div#column_center_three div.news dl{
+	padding:0 5px 3px 5px;
+	height:141px;
+	overflow:auto;
+}
+
+div#wrapper div#column_center_three div.news dl dt{
+	margin:0px;
+	/*float:left;*/
+	padding:5px 0 0 5px;
+}
+
+div#wrapper div#column_center_three div.news dl dd{
+	margin:0px;
+	padding:5px 0 2px 5px;
+	border-bottom:1px solid #E8E8E8;
+	
+}
+
+div#wrapper div#column_center_three p.sweet_banner{
+	margin-top:10px;
+	width:247px;
+	float:left;
+}
+
+/* おかし屋ぱれっと　商品一覧
+----------------------------------------*/
+div#wrapper div#column_center_three div.topProduct_list{
+	width:502px;
+	border:1px solid #E8E8E8;
+	margin-bottom:5px;
+}
+
+div#wrapper div#column_center_three h5.okashiya_title{
+	padding-top:10px;
+}
+
+div#wrapper div#column_center_three div.topProduct{
+	padding:10px 10px 5px 8px;
+	float:left;
+	width:235px;
+}
+
+div#wrapper div#column_center_three div.topProduct2{
+	padding:10px 0px 5px 0px;
+	float:left;
+	width:235px;
+}
+
+div#wrapper div#column_center_three div.topProduct3{
+	clear:both;
+	padding:10px 0px 10px 10px;
+	width:480px;
+}
+
+div#wrapper div#column_center_three div.topProduct dl.p_list{
+	border:1px solid #E8E8E8;
+	background-color:#FFFFE8;
+	width:235px;
+	height:75px;
+}
+
+div#wrapper div#column_center_three div.topProduct2 dl.p_list{
+	border:1px solid #E8E8E8;
+	background-color:#FFFFE8;
+	width:235px;
+	height:75px;
+}
+
+div#wrapper div#column_center_three div.topProduct3 dl.p_list{
+	border:1px solid #E8E8E8;
+	background-color:#FFFFE8;
+	width:480px;
+	height:75px;
+}
+
+div#wrapper div#column_center_three div.topProduct dl dt{
+	padding-right:5px;
+	padding-top:1px;
+	float:left;
+}
+
+div#wrapper div#column_center_three div.topProduct2 dl dt{
+	padding-right:5px;
+	padding-top:1px;
+	float:left;
+}
+
+div#wrapper div#column_center_three div.topProduct3 dl dt{
+	padding-right:5px;
+	padding-top:1px;
+	float:left;
+}
+
+div#wrapper div#column_center_three div.topProduct dl dd{
+	font-size:10px;
+}
+
+div#wrapper div#column_center_three div.topProduct2 dl dd{
+	font-size:10px;
+}
+
+div#wrapper div#column_center_three div.topProduct3 dl dd{
+	font-size:10px;
+}
+
+div#wrapper div#column_center_three div.topProduct dl dd.title{
+	padding-top:5px;
+}
+
+div#wrapper div#column_center_three div.topProduct2 dl dd.title{
+	padding-top:5px;
+}
+
+div#wrapper div#column_center_three div.topProduct3 dl dd.title{
+	padding-top:5px;
+}
+
+div#wrapper div#column_center_three div.topProduct a{
+	color:#333333;
+	text-decoration:underline;
+}
+
+div#wrapper div#column_center_three div.topProduct2 a{
+	color:#333333;
+	text-decoration:underline;
+}
+
+div#wrapper div#column_center_three div.topProduct3 a{
+	color:#333333;
+	text-decoration:underline;
+}
+
+div#wrapper div#column_center_three div.topProduct a:hover{
+	color:#573C2B;
+	text-decoration:none;
+}
+
+div#wrapper div#column_center_three div.topProduct2 a:hover{
+	color:#573C2B;
+	text-decoration:none;
+}
+
+div#wrapper div#column_center_three div.topProduct3 a:hover{
+	color:#573C2B;
+	text-decoration:none;
+}
+
+div#wrapper div#column_center_three div.topProduct_list p.best{
+	float:left;
+	width:97px;
+	padding:10px 0 10px 0;
+}
+
+div#wrapper div#column_center_three div.topProduct_list p.best1{
+	float:left;
+	width:97px;
+	padding:10px 0 10px 10px;
+}
+
+div#wrapper div#column_center_three div.topProduct_list p.best2{
+	float:left;
+	width:95px;
+	padding:10px 0 10px 0;
+}
+
+
+
+/* 右メニュー
+----------------------------------------*/
+
+div#wrapper div#column_right{
+	width:194px;
+	float:right;
+}
+
+*html div#wrapper div#column_right {
+
+}
+
+
+div#wrapper ul.cart{
+	margin-bottom:5px;
+	padding:5px;
+	border-left:1px solid #E8E8E8;
+	border-top:1px solid #E8E8E8;
+	border-bottom:1px solid #E8E8E8;
+	background-color:#FFFFE8;
+}
+
+div#wrapper ul.cart li{
+	text-align:center;
+	list-style-type:none;
+}
+
+div#wrapper ul.cart li.p_tensu{
+	text-align:center;
+	padding-bottom:3px;
+	border-bottom:1px solid #E6E6E6;
+}
+
+div#wrapper ul.cart li.p_goukei{
+	padding-bottom:5px;
+	text-align:right;
+	font-weight:bold;
+}
+
+div#wrapper p.okashiya_banner{
+	padding-bottom:5px;
+}
+
+div#wrapper ul.privilege{
+	margin-bottom:5px;
+	padding:10px 6px 10px 6px;
+	border:1px solid #E8E8E8;
+	background-color:#FFFFE8;
+}
+
+div#wrapper ul.privilege li{
+	list-style-type:none;
+	padding-bottom:5px;
+}
+
+div#wrapper ul.first{
+	margin-bottom:5px;
+	padding:10px 6px 10px 6px;
+	border:1px solid #E8E8E8;
+}
+
+div#wrapper ul.first li{
+	background-image:url(../img/share/list001.gif);
+	background-repeat:no-repeat;
+	background-position:5px 5px;
+	list-style-type:none;
+	padding-left:20px;
+}
+
+div#wrapper div.guide_1{
+	margin-bottom:5px;
+	border:1px solid #E8E8E8;
+}
+
+div#wrapper div.guide_1 dl{
+	margin-bottom:5px;
+	padding:6px 6px 6px 6px;
+}
+
+div#wrapper div.guide_1 dt{
+	background-image:url(../img/share/list002.gif);
+	background-repeat:no-repeat;
+	background-position:2px 6px;
+	padding-left:12px;
+}
+
+div#wrapper div.guide_1 dd{
+	padding:0 0 5px 10px;
+	margin:0;
+	font-size:80%;
+}
+
+div#wrapper div.guide_1 dd.guide_right{
+	text-align:right;
+	padding-right:5px;
+}
+
+div#wrapper div.guide_2{
+	margin-bottom:5px;
+	border:1px solid #E8E8E8;
+}
+
+
+div#wrapper div.guide_2 dl{
+	margin-bottom:5px;
+	padding:6px 6px 6px 6px;
+}
+
+div#wrapper div.guide_2 dt{
+	background-image:url(../img/share/list002.gif);
+	background-repeat:no-repeat;
+	background-position:2px 6px;
+	padding-left:12px;
+}
+
+div#wrapper div.guide_2 dd{
+	padding:0 0 5px 10px;
+	margin:0;
+	font-size:80%;
+}
+
+div#wrapper div.guide_2 dd.guide_right{
+	text-align:right;
+	padding:0 5px 0 0;
+}
+
+div#wrapper div.mail_1{
+	border:1px solid #E8E8E8;
+}
+
+div#wrapper div.mail_1 dl{
+	margin-bottom:5px;
+	padding:6px 6px 6px 0px;
+}
+
+div#wrapper div.mail_1 dt{
+	background-position:2px 6px;
+	padding-left:12px;
+}
+
+div#wrapper div.mail_1 dd.guide_right{
+	text-align:right;
+	padding-right:5px;
+}
+
+div#wrapper div#column_center_three ul.sitemap_1{
+	padding-left:30px;
+	padding-bottom:10px;
+}
+
+div#wrapper div#column_center_three ul.sitemap_2{
+	padding-left:35px;
+	padding-bottom:10px
+}
+
+
+/* カレンダー
+----------------------------------------*/
+div#wrapper div.calendar-side{
+	padding:5px;
+}
+
+
+/* フッター
+----------------------------------------*/
+div#wrapper div.footer{	
+	margin:0 auto;
+	padding-top:20px;
+	clear:both;
+}
+
+div#wrapper div.footer p.top_page{
+	text-align:right;
+	padding:5px 10px 5px 0;
+}
+
+div#wrapper div.footer_bg{	
+	width:900px;
+	height:20px;
+	background-image:url(../img/share/footer_bg.gif);
+	background-repeat:no-repeat;
+}
+
+div#wrapper div.footer_bg p.copyright{
+	float:right;
+	padding-right:10px;
+	padding-top:2px;
+}
+
+div#wrapper div.footer_bg p.sitemap_link{
+	float:left;
+	padding-left:10px;
+}
+
+div#wrapper div.footer_bg p.sitemap_link a{
+	color:#FFFFFF;
+}

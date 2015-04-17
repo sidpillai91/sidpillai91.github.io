@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*　ここから　*/
+
+div#undercolumn h4.okashiyatv_sub {
+	margin:10px;
+	padding: 3px 0 3px 10px;
+	border-left:4px solid #EA7C83;
+	color:#583D2C;
+	font-size:100%;
+}
+
+div#undercolumn div.movieDetail_01{
+	margin:0 10px 10px 10px;
+	padding:10px 0 10px 10px;
+	background-color:#E3F0FB;
+	height:100%;
+}
+
+
+div#undercolumn div.movieDetail_01 ul{
+	margin:0 auto;
+	list-style-type:none;
+}
+
+div#undercolumn div.movieDetail_01 ul li{
+	margin:0;
+	padding:0 14px 0 0;
+	width:144px;
+	float:left;
+}
+
+div#undercolumn div.movieDetail_02{
+	margin:0 10px 0 10px;
+	padding:10px 0 10px 10px;
+	background-color:#FFEDAA;
+	height:100%;
+}
+
+
+div#undercolumn div.movieDetail_02 ul{
+	margin:0 auto;
+	list-style-type:none;
+}
+
+div#undercolumn div.movieDetail_02 ul li{
+	margin:0;
+	padding:0 14px 0 0;
+	width:144px;
+	float:left;
+}
+

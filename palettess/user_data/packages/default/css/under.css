@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+
+/* 下層共通指定
+----------------------------------------------- */
+div#undercolumn {
+	margin: 0 auto;
+	padding: 0 0 25px;
+}
+
+div#undercolumn table {
+	margin: 15px auto;
+}
+
+div#undercolumn th {
+	margin: 0;
+	padding: 8px;
+	border-top: 1px solid #D9D9D9;
+	background: #F2F2F2;
+}
+
+
+
+/* ◎◎について
+----------------------------------------------- */
+div#undercolumn_aboutus {
+
+}
+
+div#undercolumn_aboutus table th {
+    width: 140px;
+}
+
+div#undercolumn_aboutus table td {
+	margin: 0;
+	padding: 8px;
+	background: transparent;
+	border-top: 1px solid #D9D9D9;
+}
+
+
+/* 特定商取引法
+----------------------------------------------- */
+div#undercolumn_order {
+
+}
+
+div#undercolumn_order table th {
+    width: 140px;
+}
+
+div#undercolumn_order table td {
+	margin: 0;
+	padding: 8px;
+	background: transparent;
+	border-top: 1px solid #D9D9D9;
+	line-height: 1.6;
+}
+
+div#undercolumn_order table#tb-daibiki {
+	width: 300px;
+}
+
+div#undercolumn_order ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#undercolumn_order li {
+	margin: 0;
+	padding: 0 0 1.2em 5px;
+}
+
+div#undercolumn_order table strong {
+	color: #573C2B;
+}
+
+
+/* お問い合わせ
+----------------------------------------------- */
+div#undercolumn_contact {
+
+}
+
+div#undercolumn_contact table th{
+	width: 140px;
+}
+
+div#undercolumn_contact table td {
+	margin: 0;
+	padding: 8px;
+	background: transparent;
+	border-top: 1px solid #D9D9D9;
+}
+
+div#undercolumn_contact .box120 {
+    width: 120px;
+	margin: 0 0 3px 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_contact .box60 {
+    width: 60px;
+	margin: 0 0 3px 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_contact .box380 {
+    width: 380px;
+    margin: 5px 0 3px 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_contact input.mailform {
+	width: 380px;
+    margin: 5px 0 3px 0;
+    padding: 2px 3px;
+	font-weight: bold;
+	font-size: 125%;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_contact .area380 {
+    width: 380px;
+    height: 250px;
+    margin: 5px 0 3px 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+.contact-info {
+	margin: 15px 0;
+	padding: 0;
+	text-align:center;
+}
+
+.contact-attention {
+	margin: 5px 0;
+	font-size: 80%;
+	line-height: 1.4;
+	color: #C00;
+}
+
+.contact-address {
+	margin: 30px 0 15px;
+	padding: 10px;
+	border: 4px solid #CCC;
+	text-align:left;
+}
+
+div#undercolumn_contact table .contact-attention {
+}
+
+div#undercolumn_contact div.tblareabtn{
+	text-align:center;
+}
+
+div#undercolumn_contact div.tblareabtn img{
+	vertical-align:baseline;
+}
+
+/* 会員登録
+----------------------------------------------- */
+div#undercolumn_entry {
+}
+
+div#undercolumn_entry .entry-info {
+	margin: 5px 0 10px;
+}
+
+div#undercolumn_entry #kiyaku-list {
+	margin: 0;
+}
+
+div#undercolumn_entry table th{
+	width: 140px;
+}
+
+div#undercolumn_entry table td {
+	margin: 0;
+	padding: 8px;
+	background: transparent;
+	border-top: 1px solid #D9D9D9;
+}
+
+div#undercolumn_entry .tblareabtn {
+	padding-top:10px;
+	text-align:center;
+}
+
+#kiyaku-list .area470 {
+	font-size: 100%;
+	line-height: 1.6;
+}
+
+div#undercolumn_entry .area470 {
+	width: 490px;
+	height: 520px;
+	margin: 5px 0 0 0;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+	background: #FBFBFB;
+}
+
+div#undercolumn_entry .box120 {
+	width: 120px;
+	padding: 2px;
+	border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_entry .box60 {
+	width: 60px;
+	padding: 2px;
+	border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_entry input.mailform {
+	width: 380px;
+    margin: 5px 0 3px 0;
+    padding: 2px 3px;
+	font-weight: bold;
+	font-size: 125%;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_entry .box380 {
+    width: 380px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_entry .box320 {
+    width: 320px;
+    margin: 5px 0 0 0;
+    padding: 2px;
+    border: 1px solid #CDCDCD;
+	background: #FBFBFB;
+}
+
+div#undercolumn_entry .zipimg img {
+    margin: 5px 0 0 0;
+}
+
+div#undercolumn_entry div#completetext {
+    width: 470px;
+    margin: 15px auto 0 auto;
+    padding: 15px;
+    border: 5px solid #ccc;
+}
+
+div#undercolumn_entry div#completetext em {
+    font-weight: bold;
+}
+
+div#undercolumn_entry div#completetext p{
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+div#undercolumn_entry dt {
+    float: left;
+    width: 4em;
+    border: 1px solid #FF0000;
+}
+
+.entry-address {
+	margin: 30px 0 15px;
+	padding: 10px;
+	border: 4px solid #CCC;
+}
+
+div#undercolumn_entry table .entry-attention {
+	margin: 5px 0;
+	font-size: 80%;
+	line-height: 1.4;
+	color: #C00;
+}
+
+
+/* プライバシーポリシー
+----------------------------------------------- */
+#undercolumn_privacy {
+}
+
+#undercolumn_privacy li.privacy_ol {
+	margin: 0 30px 15px;
+}
+
+#undercolumn_privacy ul {
+	margin: 1em 0 1em 15px;
+	padding: 0;
+	list-style-type: disc;
+}
+
+#undercolumn_privacy p {
+	margin: 20px 25px;
+}
